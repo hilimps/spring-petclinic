@@ -71,6 +71,8 @@ public class Owner extends Person {
     	this.age = age;
     }
 
+    private String email;
+    
     public String getAddress() {
         return this.address;
     }
